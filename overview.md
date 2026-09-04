@@ -33,26 +33,13 @@ while the three Featured Work projects still make AI the standout skill.
 
 ## Structure — 7 sections, in order
 
-1. **Hero** — role label, headline, one-line framing ("full-stack is the
-   foundation, AI is the specialization"), six core-area tags, two CTAs, and
-   a compact 3-column strip linking to the three AI-flagship projects.
-2. **Featured Work** — the three AI-flagship products: **FlowDesk**,
-   **LeadScore AI**, **AuraPM**. Each is numbered (01–03), shows a role line,
-   a short pitch, tech tags, and a small abstract product mockup. Clicking a
-   card opens a modal with the full case study: role → problem → solution →
-   highlights → stack.
-3. **Real-World Experience** — four production projects at real companies
-   (**AffPilot**, **Luggage Forward**, **Test Psycho**, **First Circle**),
-   numbered 04–07, shown as simpler rows (title, role, description, tags —
-   no mockup, no modal). This is the proof that the work extends beyond
-   AI-flagship side projects into shipped, production systems.
-4. **Skills & Tools** — four grouped categories instead of one long list:
-   AI & Intelligent Systems, Full-Stack Development, Backend & Data,
-   Integrations & Infrastructure.
-5. **How I Work** — a 4-step process (Understand → Design → Build → Ship).
-6. **CTA** — dark closing block: "Have a product you want to build?" with a
-   single primary action and an availability line.
-7. **Footer** — minimal, name/year + GitHub/LinkedIn/email links.
+1. **Hero** — Eyebrow (`FULL-STACK DEVELOPER · AI & SAAS`), headline ("I build the product, not just one piece of it."), subhead, stack tags, CTAs, and a right-side 3-project visual preview showcase above the fold.
+2. **Featured Work** — Three AI flagship products (**FlowDesk**, **LeadScore AI**, **AuraPM**) with prominent role emphasis, short pitches, tech tags, and real screenshots/mockups opening detailed case-study modals.
+3. **Real-World Experience** — Four production projects at real companies (**AffPilot**, **Luggage Forward**, **Test Psycho**, **First Circle**), with prominent role titles, external live links, concise descriptions, and tags.
+4. **What I Can Help With** — Four client service offerings (*Build from scratch*, *Add AI to an existing product*, *Extend your backend*, *Take it to production*).
+5. **Skills & Tools** — Four grouped categories: *AI & Intelligent Systems*, *Full-Stack Development*, *Backend & Data*, *Integrations & Infrastructure*.
+6. **About & Approach** — Personal background, philosophy, location (`Based in Nigeria · Available for freelance & contract work worldwide`), and quick profile links.
+7. **CTA & Footer** — Closing block ("Need a full-stack developer to build, extend, or add AI to your product? Let's talk.") and footer links (GitHub, LinkedIn, Upwork, Email).
 
 ## The seven projects
 
