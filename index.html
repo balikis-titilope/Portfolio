@@ -1,0 +1,808 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Full-Stack Developer Building AI-Powered Products</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site">
+      <div class="wrap">
+        <nav>
+          <a href="#top" class="logo"><span class="dot"></span>balqees.dev</a>
+          <div class="nav-links">
+            <a href="#work">Work</a>
+            <a href="#experience">Experience</a>
+            <a href="#skills">Skills</a>
+            <a href="#process">How I Work</a>
+            <a href="#contact">Contact</a>
+          </div>
+          <a href="#contact" class="nav-cta">Start a project</a>
+          <button class="menu-btn" id="menuBtn" aria-label="Toggle menu">
+            <span></span><span></span><span></span>
+          </button>
+        </nav>
+        <div class="mobile-menu" id="mobileMenu">
+          <a href="#work">Work</a>
+          <a href="#experience">Experience</a>
+          <a href="#skills">Skills</a>
+          <a href="#process">How I Work</a>
+          <a href="#contact">Contact</a>
+        </div>
+      </div>
+    </header>
+
+    <main id="top">
+      <!-- HERO -->
+      <section class="hero">
+        <div class="wrap">
+          <div class="hero-grid">
+            <div class="hero-left">
+              <div class="availability-badge">
+                <span class="pulse-dot"></span> Available for new full-stack
+                &amp; AI projects
+              </div>
+              <p class="role">FULL-STACK DEVELOPER · AI &amp; SAAS</p>
+              <h1>I build the product, not just one piece of it.</h1>
+              <p class="sub">
+                From frontend and backend architecture to AI integrations, APIs,
+                payments, and deployment — I build complete web products that
+                are ready to ship.
+              </p>
+              <div class="stack-tags">
+                <span>React</span><span>Next.js</span><span>Node.js</span
+                ><span>Python</span><span>PostgreSQL</span><span>AI / RAG</span
+                ><span>Stripe</span><span>AWS</span>
+              </div>
+              <div class="hero-ctas">
+                <a href="#work" class="btn btn-primary">View my work</a>
+                <a href="#contact" class="btn btn-ghost">Let's work together</a>
+              </div>
+            </div>
+
+            <div class="hero-right">
+              <div class="hero-showcase">
+                <a href="#leadscore" class="hero-card-preview leadscore">
+                  <div class="hcard-top">
+                    <span class="hcard-tag">02 · AI Lead Qualification</span>
+                    <span class="hcard-link">View case →</span>
+                  </div>
+                  <div class="hcard-title">LeadScore AI</div>
+                  <div class="hcard-mock">
+                    <img
+                      src="assets/AI leadscore .png"
+                      alt="LeadScore AI Preview"
+                    />
+                  </div>
+                </a>
+
+                <a href="#aurapm" class="hero-card-preview aurapm">
+                  <div class="hcard-top">
+                    <span class="hcard-tag">03 · AI Project Assistant</span>
+                    <span class="hcard-link">View case →</span>
+                  </div>
+                  <div class="hcard-title">AuraPM</div>
+                  <div class="hcard-mock">
+                    <img src="assets/AuraPM a.png" alt="AuraPM Preview" />
+                  </div>
+                </a>
+
+                <a href="#flowdesk" class="hero-card-preview flowdesk">
+                  <div class="hcard-top">
+                    <span class="hcard-tag">01 · RAG Support Agent</span>
+                    <span class="hcard-link">View case →</span>
+                  </div>
+                  <div class="hcard-title">FlowDesk</div>
+                  <p class="hcard-sub">Next.js · OpenAI API · pgvector · RAG</p>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="wrap">
+          <div class="strip">
+            <a href="#flowdesk"
+              ><span class="name">FlowDesk</span
+              ><span>AI support agent</span></a
+            >
+            <a href="#leadscore"
+              ><span class="name">LeadScore AI</span
+              ><span>Lead qualification</span></a
+            >
+            <a href="#aurapm"
+              ><span class="name">AuraPM</span
+              ><span>AI project assistant</span></a
+            >
+          </div>
+        </div>
+      </section>
+
+      <!-- FEATURED WORK -->
+      <section id="work">
+        <div class="wrap">
+          <div class="section-head">
+            <h2>Featured work</h2>
+            <p>
+              Three products that show the full range — frontend, backend, and a
+              real AI integration underneath each one.
+            </p>
+          </div>
+        </div>
+
+        <div class="wrap">
+          <div class="work-list">
+            <div
+              class="work-card flowdesk"
+              id="flowdesk"
+              data-project="flowdesk"
+              tabindex="0"
+              role="button"
+              aria-label="Open FlowDesk case study"
+            >
+              <div class="work-info">
+                <span class="tag">01 — AI Customer Support Agent</span>
+                <h3>FlowDesk</h3>
+                <p class="role-mini">
+                  Role: Full-Stack Developer · AI Integration
+                </p>
+                <p class="desc">
+                  An AI-powered support platform combining a modern SaaS
+                  interface with RAG, knowledge-base retrieval, and contextual
+                  conversational workflows.
+                </p>
+                <div class="tech">
+                  <span>Next.js</span><span>OpenAI API</span
+                  ><span>pgvector</span><span>PostgreSQL</span>
+                </div>
+                <span class="case-link"
+                  >View case study
+                  <svg width="14" height="14" viewBox="0 0 14 14" fill="none">
+                    <path
+                      d="M3 11L11 3M11 3H4M11 3V10"
+                      stroke="currentColor"
+                      stroke-width="1.4"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </span>
+              </div>
+              <div class="mock">
+                <div class="mock-bar">
+                  <div class="mock-dots"><i></i><i></i><i></i></div>
+                  <span class="mock-url">flowdesk.io</span>
+                </div>
+                <div class="mock-body">
+                  <div class="mock-row">
+                    <span class="mock-chip">Docs indexed: 1,204</span>
+                  </div>
+                  <div class="mock-bubble">
+                    How do I migrate a workspace to the new billing plan?
+                  </div>
+                  <div class="mock-bubble accent">
+                    Based on your Billing → Plans doc: go to Settings, select
+                    "Change plan"... <br /><small
+                      >Source: billing-migration.md</small
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div
+              class="work-card leadscore"
+              id="leadscore"
+              data-project="leadscore"
+              tabindex="0"
+              role="button"
+              aria-label="Open LeadScore AI case study"
+            >
+              <div class="work-info">
+                <span class="tag">02 — AI Lead Qualification System</span>
+                <h3>LeadScore AI</h3>
+                <p class="role-mini">
+                  Role: Full-Stack Developer · AI Integration
+                </p>
+                <p class="desc">
+                  An AI-powered lead qualification platform that analyzes
+                  incoming leads, generates structured insights, and applies
+                  backend business rules to surface high-priority opportunities.
+                </p>
+                <div class="tech">
+                  <span>React</span><span>Node.js</span
+                  ><span>Structured Outputs</span><span>CRM Webhooks</span>
+                </div>
+                <span class="case-link"
+                  >View case study
+                  <svg width="14" height="14" viewBox="0 0 14 14" fill="none">
+                    <path
+                      d="M3 11L11 3M11 3H4M11 3V10"
+                      stroke="currentColor"
+                      stroke-width="1.4"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </span>
+              </div>
+              <div class="mock">
+                <div class="mock-bar">
+                  <div class="mock-dots"><i></i><i></i><i></i></div>
+                  <span class="mock-url">leadscore.ai</span>
+                </div>
+                <img
+                  src="assets/AI leadscore .png"
+                  alt="LeadScore AI Dashboard Screenshot"
+                />
+              </div>
+            </div>
+
+            <div
+              class="work-card aurapm"
+              id="aurapm"
+              data-project="aurapm"
+              tabindex="0"
+              role="button"
+              aria-label="Open AuraPM case study"
+            >
+              <div class="work-info">
+                <span class="tag">03 — AI Project Assistant</span>
+                <h3>AuraPM</h3>
+                <p class="role-mini">
+                  Role: Full-Stack Developer · AI Integration
+                </p>
+                <p class="desc">
+                  An AI assistant integrated directly into a project-management
+                  SaaS, letting users interact with real project data and get
+                  context-aware insights.
+                </p>
+                <div class="tech">
+                  <span>Next.js</span><span>OpenAI API</span
+                  ><span>Vector Search</span><span>Auth &amp; Billing</span>
+                </div>
+                <span class="case-link"
+                  >View case study
+                  <svg width="14" height="14" viewBox="0 0 14 14" fill="none">
+                    <path
+                      d="M3 11L11 3M11 3H4M11 3V10"
+                      stroke="currentColor"
+                      stroke-width="1.4"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </span>
+              </div>
+              <div class="mock">
+                <div class="mock-bar">
+                  <div class="mock-dots"><i></i><i></i><i></i></div>
+                  <span class="mock-url">aurapm.com</span>
+                </div>
+                <img
+                  src="assets/AuraPM a.png"
+                  alt="AuraPM AI Assistant Screenshot"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- REAL-WORLD EXPERIENCE -->
+      <section id="experience">
+        <div class="wrap">
+          <div class="section-head">
+            <h2>Real-world experience</h2>
+            <p>
+              Production systems shipped for real companies — backend, APIs,
+              payments, and deployment beyond the AI-flagship projects.
+            </p>
+          </div>
+
+          <div class="exp-list">
+            <div class="exp-item">
+              <span class="exp-num">04</span>
+              <div class="exp-content">
+                <h3>
+                  <a
+                    href="https://affpilot.com"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="exp-title-link"
+                    >AffPilot
+                    <svg width="13" height="13" viewBox="0 0 14 14" fill="none">
+                      <path
+                        d="M3 11L11 3M11 3H4M11 3V10"
+                        stroke="currentColor"
+                        stroke-width="1.4"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      /></svg
+                  ></a>
+                </h3>
+                <p class="exp-sub">
+                  Affiliate Content &amp; Automation Platform
+                </p>
+                <p class="exp-role">Role: Backend Developer</p>
+                <p class="exp-desc">
+                  Built and maintained backend functionality for an
+                  affiliate-focused SaaS platform involving content generation,
+                  publishing integrations, APIs, and automation workflows.
+                </p>
+                <div class="exp-tags">
+                  <span>Backend Engineering</span><span>APIs</span
+                  ><span>SaaS</span><span>Automation</span
+                  ><span>Integrations</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="exp-item">
+              <span class="exp-num">05</span>
+              <div class="exp-content">
+                <h3>
+                  <a
+                    href="https://luggageforward.com"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="exp-title-link"
+                    >Luggage Forward
+                    <svg width="13" height="13" viewBox="0 0 14 14" fill="none">
+                      <path
+                        d="M3 11L11 3M11 3H4M11 3V10"
+                        stroke="currentColor"
+                        stroke-width="1.4"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      /></svg
+                  ></a>
+                </h3>
+                <p class="exp-sub">Luggage Shipping &amp; Booking Platform</p>
+                <p class="exp-role">Role: Backend Developer</p>
+                <p class="exp-desc">
+                  Worked on backend systems supporting a production
+                  luggage-shipping platform, including business logic,
+                  booking-related workflows, integrations, and shipment
+                  functionality.
+                </p>
+                <div class="exp-tags">
+                  <span>Backend Engineering</span><span>APIs</span
+                  ><span>Business Logic</span><span>Production Systems</span
+                  ><span>Integrations</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="exp-item">
+              <span class="exp-num">06</span>
+              <div class="exp-content">
+                <h3>
+                  <a
+                    href="https://test-psycho.com"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="exp-title-link"
+                    >Test Psycho
+                    <svg width="13" height="13" viewBox="0 0 14 14" fill="none">
+                      <path
+                        d="M3 11L11 3M11 3H4M11 3V10"
+                        stroke="currentColor"
+                        stroke-width="1.4"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      /></svg
+                  ></a>
+                </h3>
+                <p class="exp-sub">Assessment Platform</p>
+                <p class="exp-role">Role: Full-Stack Developer</p>
+                <p class="exp-desc">
+                  Worked across both frontend and backend development,
+                  contributing to the product from the user interface through
+                  the underlying APIs and application logic.
+                </p>
+                <div class="exp-tags">
+                  <span>React</span><span>Frontend Development</span
+                  ><span>Backend Development</span><span>APIs</span
+                  ><span>Full-Stack Engineering</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="exp-item">
+              <span class="exp-num">07</span>
+              <div class="exp-content">
+                <h3>
+                  <a
+                    href="https://firstcirclefund.com/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="exp-title-link"
+                    >First Circle
+                    <svg width="13" height="13" viewBox="0 0 14 14" fill="none">
+                      <path
+                        d="M3 11L11 3M11 3H4M11 3V10"
+                        stroke="currentColor"
+                        stroke-width="1.4"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      /></svg
+                  ></a>
+                </h3>
+                <p class="exp-sub">Fintech Platform</p>
+                <p class="exp-role">
+                  Role: Backend Developer · Stripe Integration · Deployment
+                </p>
+                <p class="exp-desc">
+                  Worked on backend development and the production launch,
+                  including Stripe integration, resolving pre-deployment issues,
+                  deployment preparation, and getting the application live.
+                </p>
+                <div class="exp-tags">
+                  <span>Backend Engineering</span><span>Stripe</span
+                  ><span>Payment Integration</span><span>Debugging</span
+                  ><span>Deployment</span><span>Production Launch</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- SKILLS -->
+      <section id="skills">
+        <div class="wrap">
+          <div class="section-head">
+            <h2>Skills &amp; tools</h2>
+            <p>Grouped by what they're for, not dumped in one long list.</p>
+          </div>
+          <div class="capability-grid">
+            <div class="capability">
+              <div class="mark">AI</div>
+              <h3>AI &amp; Intelligent Systems</h3>
+              <div class="tag-pills">
+                <span>AI Integration</span><span>OpenAI API</span
+                ><span>LLM Applications</span> <span>RAG Systems</span
+                ><span>AI Assistants</span><span>AI Workflows</span>
+                <span>Structured AI Outputs</span><span>AI Automation</span>
+              </div>
+            </div>
+            <div class="capability">
+              <div class="mark">&lt;/&gt;</div>
+              <h3>Full-Stack Development</h3>
+              <div class="tag-pills">
+                <span>React</span><span>Next.js</span><span>TypeScript</span
+                ><span>Node.js</span> <span>NestJS</span><span>Python</span
+                ><span>FastAPI</span><span>REST APIs</span>
+              </div>
+            </div>
+            <div class="capability">
+              <div class="mark">DB</div>
+              <h3>Backend &amp; Data</h3>
+              <div class="tag-pills">
+                <span>PostgreSQL</span><span>MongoDB</span><span>MySQL</span
+                ><span>Redis</span> <span>API Development</span
+                ><span>Authentication</span><span>Business Logic</span>
+              </div>
+            </div>
+            <div class="capability">
+              <div class="mark">OPS</div>
+              <h3>Integrations &amp; Infrastructure</h3>
+              <div class="tag-pills">
+                <span>Stripe</span><span>Third-Party APIs</span
+                ><span>Webhooks</span><span>Docker</span> <span>AWS</span
+                ><span>CI/CD</span><span>Deployment</span
+                ><span>Production Debugging</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- HOW I WORK -->
+      <section id="process">
+        <div class="wrap">
+          <div class="section-head">
+            <h2>How I work</h2>
+            <p>Four steps, every project, no surprises.</p>
+          </div>
+          <div class="process">
+            <div class="step">
+              <div class="num">01</div>
+              <div>
+                <h3>Understand</h3>
+                <p>
+                  Understand the product, the workflow it fits into, and what
+                  the AI or integration actually needs to do — not just what's
+                  technically possible.
+                </p>
+              </div>
+            </div>
+            <div class="step">
+              <div class="num">02</div>
+              <div>
+                <h3>Design</h3>
+                <p>
+                  Plan the architecture: data flow, API contracts, third-party
+                  integrations, and how it all shows up in the user experience.
+                </p>
+              </div>
+            </div>
+            <div class="step">
+              <div class="num">03</div>
+              <div>
+                <h3>Build</h3>
+                <p>
+                  Implement the frontend, backend, AI integration, and business
+                  logic as one working system — not a demo bolted onto an app.
+                </p>
+              </div>
+            </div>
+            <div class="step">
+              <div class="num">04</div>
+              <div>
+                <h3>Ship</h3>
+                <p>
+                  Test against real inputs, deploy, and refine based on how it
+                  actually performs once people are using it.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- CTA -->
+      <section id="contact">
+        <div class="wrap">
+          <div class="cta-section">
+            <h2>Have a product you want to build?</h2>
+            <p class="lead">
+              From frontend to backend to the AI layer — let's take it from idea
+              to production.
+            </p>
+            <div style="display: flex; gap: 14px; flex-wrap: wrap">
+              <a href="mailto:balqees.dev@gmail.com" class="btn btn-primary"
+                >Start a project</a
+              >
+              <a
+                href="https://www.upwork.com/freelancers/~010ff731b93dbc647c?mp_source=share"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="btn btn-ghost"
+                style="color: #fff; border-color: rgba(255, 255, 255, 0.3)"
+                >Hire on Upwork</a
+              >
+            </div>
+            <div class="cta-avail">
+              Available for full-stack development, AI integration, SaaS,
+              backend systems, and automation.
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="wrap">
+        <p>
+          © 2026 Balikis Titilope — Full-Stack Developer Building AI-Powered
+          Products
+        </p>
+        <div class="flinks">
+          <a
+            href="https://github.com/balikis-titilope"
+            target="_blank"
+            rel="noopener noreferrer"
+            >GitHub</a
+          >
+          <a
+            href="https://www.linkedin.com/in/balikis-titilope"
+            target="_blank"
+            rel="noopener noreferrer"
+            >LinkedIn</a
+          >
+          <a
+            href="https://www.upwork.com/freelancers/~010ff731b93dbc647c?mp_source=share"
+            target="_blank"
+            rel="noopener noreferrer"
+            >Upwork</a
+          >
+          <a href="mailto:balqees.dev@gmail.com">Email</a>
+        </div>
+      </div>
+    </footer>
+
+    <!-- MODAL -->
+    <div class="modal-overlay" id="modalOverlay">
+      <div class="modal">
+        <button class="modal-close" id="modalClose" aria-label="Close">
+          ✕
+        </button>
+        <span class="tag" id="mTag"></span>
+        <h2 id="mTitle"></h2>
+        <p class="role-line" id="mRole"></p>
+
+        <div class="modal-block" id="mImageBlock" style="display: none">
+          <div class="mock" style="margin-bottom: 20px">
+            <div class="mock-bar">
+              <div class="mock-dots"><i></i><i></i><i></i></div>
+            </div>
+            <img id="mImage" src="" alt="Project screenshot" />
+          </div>
+        </div>
+
+        <div class="modal-block">
+          <h4>The problem</h4>
+          <p id="mProblem"></p>
+        </div>
+        <div class="modal-block">
+          <h4>The solution</h4>
+          <p id="mSolution"></p>
+        </div>
+        <div class="modal-block">
+          <h4>Highlights</h4>
+          <ul class="highlights" id="mHighlights"></ul>
+        </div>
+        <div class="modal-block">
+          <h4>Stack</h4>
+          <div class="tech" id="mTech"></div>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      // mobile menu
+      const menuBtn = document.getElementById("menuBtn");
+      const mobileMenu = document.getElementById("mobileMenu");
+      menuBtn.addEventListener("click", () =>
+        mobileMenu.classList.toggle("open"),
+      );
+      mobileMenu
+        .querySelectorAll("a")
+        .forEach((a) =>
+          a.addEventListener("click", () =>
+            mobileMenu.classList.remove("open"),
+          ),
+        );
+
+      // project data — Featured Work case studies only (Real-World Experience has no modal)
+      const projects = {
+        flowdesk: {
+          tag: "01 · AI Customer Support Agent · flowdesk.io",
+          title: "FlowDesk",
+          role: "Role: Full-Stack Developer · AI Integration",
+          problem:
+            "FlowDesk's support team was buried in repetitive tier-1 tickets, and answers to common questions were scattered across docs, Notion pages, and old Slack threads — so response times were slow and inconsistent.",
+          solution:
+            "Built a RAG pipeline that indexes the product's documentation into a vector store, retrieves the most relevant passages per question, and generates grounded answers with inline source citations. Low-confidence responses are automatically escalated to a human agent instead of guessing.",
+          highlights: [
+            "AI/RAG integration",
+            "Knowledge-base retrieval",
+            "Conversational AI",
+            "Backend APIs",
+            "Database persistence",
+            "SaaS dashboard",
+          ],
+          tech: [
+            "Next.js",
+            "Node.js",
+            "OpenAI API",
+            "pgvector",
+            "PostgreSQL",
+            "Tailwind CSS",
+          ],
+        },
+        leadscore: {
+          tag: "02 · AI Lead Qualification System · leadscore.ai",
+          title: "LeadScore AI",
+          role: "Role: Full-Stack Developer · AI Integration",
+          image: "assets/AI leadscore .png",
+          problem:
+            "Inbound leads were triaged manually — reps skimmed form submissions and chat transcripts to guess at fit and urgency, so hot leads sat in a queue behind cold ones and response time suffered.",
+          solution:
+            "Built a scoring pipeline that reads every inbound lead through an LLM with structured outputs, extracting intent, budget signals, and company fit into a consistent schema. Backend business rules apply automated workflows and route qualified leads straight to the right rep, syncing to the CRM in real time.",
+          highlights: [
+            "OpenAI integration",
+            "Structured AI outputs",
+            "Backend business logic",
+            "Automated workflows",
+            "Lead scoring",
+            "Real-time activity alerts",
+            "SaaS dashboard",
+          ],
+          tech: [
+            "React",
+            "Node.js",
+            "OpenAI Structured Outputs",
+            "PostgreSQL",
+            "CRM Webhooks",
+          ],
+        },
+        aurapm: {
+          tag: "03 · AI Project Assistant · aurapm.com",
+          title: "AuraPM",
+          role: "Role: Full-Stack Developer · AI Integration",
+          image: "assets/AuraPM a.png",
+          problem:
+            'Users of this PM tool had to leave the app — checking Slack, docs, or a teammate — just to answer basic questions like "what\'s blocking the release" or "what did we decide on the pricing task."',
+          solution:
+            "Embedded an assistant directly inside the product, connected to each workspace's live task and project data through vector search. Every answer is scoped to the user's own workspace, respects existing role-based permissions, and cites the source it pulled from — with guardrails to decline or escalate when it isn't confident.",
+          highlights: [
+            "AI inside an existing SaaS",
+            "Context-aware AI",
+            "Project/task data retrieval",
+            "Structured responses",
+            "AI guardrails",
+            "Source-aware responses",
+            "Full-stack SaaS integration",
+          ],
+          tech: [
+            "Next.js",
+            "OpenAI API",
+            "Vector Search",
+            "Auth & Permissions",
+            "Stripe Billing",
+          ],
+        },
+      };
+
+      const overlay = document.getElementById("modalOverlay");
+      const closeBtn = document.getElementById("modalClose");
+
+      function openModal(key) {
+        const p = projects[key];
+        if (!p) return;
+        document.getElementById("mTag").textContent = p.tag;
+        document.getElementById("mTitle").textContent = p.title;
+        document.getElementById("mRole").textContent = p.role;
+
+        const mImgBlock = document.getElementById("mImageBlock");
+        const mImg = document.getElementById("mImage");
+        if (p.image) {
+          mImg.src = p.image;
+          mImg.alt = p.title + " screenshot";
+          mImgBlock.style.display = "block";
+        } else {
+          mImgBlock.style.display = "none";
+        }
+
+        document.getElementById("mProblem").textContent = p.problem;
+        document.getElementById("mSolution").textContent = p.solution;
+        document.getElementById("mHighlights").innerHTML = p.highlights
+          .map((h) => `<li>${h}</li>`)
+          .join("");
+        document.getElementById("mTech").innerHTML = p.tech
+          .map((t) => `<span>${t}</span>`)
+          .join("");
+        overlay.classList.add("open");
+        document.body.style.overflow = "hidden";
+      }
+      function closeModal() {
+        overlay.classList.remove("open");
+        document.body.style.overflow = "";
+      }
+
+      document.querySelectorAll(".work-card").forEach((card) => {
+        card.addEventListener("click", () => openModal(card.dataset.project));
+        card.addEventListener("keydown", (e) => {
+          if (e.key === "Enter") openModal(card.dataset.project);
+        });
+      });
+      closeBtn.addEventListener("click", closeModal);
+      overlay.addEventListener("click", (e) => {
+        if (e.target === overlay) closeModal();
+      });
+      document.addEventListener("keydown", (e) => {
+        if (e.key === "Escape") closeModal();
+      });
+    </script>
+  </body>
+</html>
